@@ -5,17 +5,27 @@ PHONEBOOK
 USING THE APPLICATION
 
 User can navigate the PhoneBook by inputting numbers.
+
 The application shows the user all the possible actions in each view,
+
 and after each action it returns to main menu until the user closes the program.
 
+
 Instructions for usage:
+
 Input a number based on the action you want to use.
 
+
 1: Add Contact
+
 Adds a new contact.
+
 Enter the first name, middle name, last name and phone number of the contact you want to save.
+
 If you don't want to save for example a middle name for the contact, you can just hit enter and the application goes forward.
+
 Each contact is given a unique ID automatically.
+
 
 2: Find Contact
 Select if you want to find a contact based on the first name (1), middle name (2) or last name (3).
