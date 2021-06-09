@@ -28,23 +28,37 @@ Each contact is given a unique ID automatically.
 
 
 2: Find Contact
+
 Select if you want to find a contact based on the first name (1), middle name (2) or last name (3).
+
 Enter the search string, and the application will fetch you the data of the contact.
+
 If no contact matches your search string, you will get a message "No matches".
 
+
 3: Show All Contacts
+
 Application prints all contacts.
 
+
 4: Modify Contact
+
 Enter the ID of the contact you want to modify.
+
 The application will ask you to input new first name, middle name, last name and phone number for the selected contact.
+
 If no contact matches the ID, you will receive an error message "No matches for the given ID".
+
 
 5: Delete Contact
+
 Enter the ID of the contact you want to delete.
+
 If no contact matches the ID, you will receive an error message "No matches for the given ID".
 
+
 6: Close Program
+
 Closes the program.
 
 
@@ -53,34 +67,53 @@ Closes the program.
 CLASSES
 
 This Java application has 4 classes:
+
 -AddressBook
+
 -Controller
+
 -Data
+
 -Contact
 
 ----
 
 CLASS: ADDRESSBOOK
+
 Class AddressBook has the main method for running the application.
+
 It calls for the run() method from Controller
+
 
 ----
 
 CLASS: CONTROLLER
+
 Class Controller has the user menu built with Switch Case Actions using Enums.
+
 User has 6 choices:
+
 -Add Contact
+
 -Find Contact
+
 -Show All Contacts
+
 -Modify Contact
+
 -Delete Contact
+
 -Close Program
 
 
 Add Contact:
+
 User creates a new contact using getPersonInformation () method,
+
 saves the contact and adds it to the list "people" created from contacts.
+
 Each Contact is automatically given a unique ID.
+
 User input needed:
 -First name
 -Middle name
